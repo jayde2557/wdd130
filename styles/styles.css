@@ -10,17 +10,14 @@ nav a {
 h1 {
     color: darkblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-main img {
-    width: 150px;
-    height: auto;
-}
+
 p {
     padding: 0;
 }
@@ -39,7 +36,7 @@ aside {
     text-align: center;
 }
 aside img {
-    width: 200;
+    width: 200px;
     height: auto;
 }
 
