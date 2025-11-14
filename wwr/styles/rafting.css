@@ -63,10 +63,10 @@ nav, p, section, article {
     
 }
 
-article {
+.hero article {
     top: 260px;
     position: absolute;
-    background-color: #e9c46a;
+    background-color: var(--secondary-color);
 }
 article img{
     float: right;
@@ -79,7 +79,6 @@ article img{
     float: right;
     width: 125px;
     width: 125px;
-   box-shadow: #292e25;
 }
 
 .hero img {
