@@ -78,7 +78,6 @@ article img{
 .hero article img {
     float: right;
     width: 125px;
-    width: 125px;
 }
 
 .hero img {
@@ -86,3 +85,7 @@ article img{
     width: 100%;
     height: auto;
   }
+
+footer {
+    color: var(--accent2-color);
+}
