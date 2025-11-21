@@ -154,7 +154,7 @@ footer .socialmedia img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 70px;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     align-items: center;
 }
 
@@ -166,4 +166,7 @@ footer .socialmedia img {
 .adventure-images img {
     width: 100px;
     height: auto;
+}
+.adventure-images figure {
+    text-align: center;
 }
