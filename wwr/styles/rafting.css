@@ -151,9 +151,6 @@ footer .socialmedia img {
 
 .adventure-images {
     margin: 16px;
-    
-}
-.image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 70px;
@@ -161,7 +158,12 @@ footer .socialmedia img {
     align-items: center;
 }
 
-.image-grid img {
+.adventure-images h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.adventure-images img {
     width: 100px;
     height: auto;
 }
