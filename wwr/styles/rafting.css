@@ -83,6 +83,13 @@ h1, h2 {
 }
 
 h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-title {
     position: absolute;
     top: 30px;
     width: 100%;
