@@ -2,7 +2,6 @@
     --primary-color: #0a3d62;       
     --secondary-color: #3dc1d3;    
     --accent1-color: #1e8e3e; 
-    --accent2-color: #ffcc00; 
     --text-color: #0a2a3a;         
     --light-bg: #f7f9fa;           
     --border-color: #d0d7dd;       
@@ -104,12 +103,11 @@ h1 {
     top: 30px;
     width: 100%;
     text-align: center;
-    opacity: 0.;
+    opacity: 0.7;
     background-color: white;
     padding: 10px;
     color: var(--primary-color);
 }
-
 
 h2 {
     width: 100%;
@@ -259,7 +257,7 @@ button:hover {
     gap: 10px;
 }
 
-.newsletter h2{
+.newsletter h2 {
     border-bottom: none;
 }
 
@@ -311,9 +309,7 @@ button:hover {
     text-decoration: none;
 }
 
-
 /* Trips Page */
-
 .trips-contact {
     text-align: center;
     padding: 3rem 1rem;
@@ -355,12 +351,10 @@ button:hover {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .trips-table-section h2 {
     grid-column: 1/-1;
-
 }
 
 .trips-table {
@@ -396,10 +390,11 @@ footer p {
 }
 
 footer .socialmedia {
+    display: flex;
     gap: 10px;
 }
 
-nav .socialmedia a {
+.socialmedia a {
     text-decoration: none;
 }
 
