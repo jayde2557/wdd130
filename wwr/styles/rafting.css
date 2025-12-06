@@ -105,9 +105,9 @@ h1 {
     width: 100%;
     text-align: center;
     opacity: 0.;
-    background-color: rgba(64, 139, 64, 0.699);
+    background-color: white;
     padding: 10px;
-    color: #ecc99b;
+    color: var(--primary-color);
 }
 
 
